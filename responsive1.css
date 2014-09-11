@@ -1,0 +1,192 @@
+
+
+
+@media screen and (max-width: 480px) {
+	body {
+		width: 100%;
+		height: 100%;
+	}
+
+		.header {
+		list-style: none;
+		padding-right: 16px;
+		margin: 3px;
+		padding-top: 7px;
+		font-size: 14px;
+	}
+	nav{
+		text-align: center;
+		padding-left: 5%;
+		;
+	}
+
+
+
+	nav ul li {
+		margin-right: 10px;
+		display:inline-block;
+		padding-right: 15px;
+		margin-bottom: -50px;
+		padding: 0px;
+		font-size: 0.85em;
+	}
+
+
+
+	#appstool {
+		width: 32px;
+		height: 35px;
+		margin-bottom:-15px;
+	}
+
+
+
+
+
+	#signin {
+		background-color: blue;
+		color: white;
+		border: none;
+		height: 24px;
+		width: 50px;
+	}
+
+	/*************************************
+	SECTION
+	*************************************/
+
+	.googleimage {
+	position: fixed;
+	left: 0em;
+	top: 150px;
+	padding-left: 1.1em;
+	margin-bottom: 0;
+	}
+
+
+	#imageproper {
+		position: fixed;
+		width: 200px;
+		height: 80x;
+		padding-left: 2em;
+	}
+
+
+
+	#input_text {
+		background: url(img/mic.png) no-repeat right;
+		border: 1px solid lightgray;
+		width: 300px;
+		height: 25px;
+		margin-left: 30px;
+		position: fixed;
+		left: -15px;
+		top: 240px;
+		display: center;
+	}
+
+
+
+	.gobuttons {
+	position: fixed;
+	left: 70px;
+	top: 280px;
+	display: inline-block;
+	}
+
+
+
+	#googlesearch {
+		width: 90px;
+		height: 25px;
+		font-size: 0.7em;
+	}
+
+
+
+	#feelinglucky {
+		width: 100px;
+		height: 25px7
+		font-size: 0.7em;
+	}
+
+		
+	/*************************
+	FOOTER
+	*************************/
+
+	footer{
+
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		color: grey;
+		background-color: #F2F2F2;
+	}
+
+
+	footer ul {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+
+
+	/****************************
+	FOOTER NAVIGATION
+	****************************/
+
+
+	footer nav {
+		float: right;
+		display: inline-block;
+		padding: 2px;
+	}
+
+
+
+	footer li {
+		font-size: bold;
+		display: block;
+		list-style: none;
+		font-size: 0.7em;
+		height: 2%;
+	}
+
+
+
+
+	.leftfloat {
+		margin: 0 10% 0 0;
+	}
+
+
+
+
+
+	.leftfloat li a {
+		margin: 0 5px 0 0;
+		text-decoration: none;
+		color: grey;
+	}
+
+
+
+
+
+	.rightfloat {
+		/*padding-right: 10% 5% 0 0;*/
+	}
+
+
+
+	.rightfloat li a {
+		float: right;
+		/*padding: 10% 5% 2% 0;*/
+		/*margin: 0 0 0 -5px;*/
+		text-decoration: none;
+		color: grey;
+	}
+}
+

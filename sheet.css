@@ -1,0 +1,238 @@
+/*******************************
+BODY
+*******************************/
+
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif;
+}
+
+
+
+/**************************
+HEADER
+*************************/
+
+.header {
+	list-style: none;
+	padding-right: 17px;
+	margin: 3px;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+
+
+nav{
+	text-align: right;
+}
+
+
+
+nav ul li {
+	margin-right: 10px;
+	display:inline-block;
+	padding-right: 15px;
+	margin-bottom: -50px;
+	padding: 0px;
+	font-size: 0.9em;
+}
+
+
+
+nav ul li a {
+	text-decoration: none;
+	color: grey;
+}
+
+
+
+nav ul li:hover{
+	text-align: right;
+	color: #222;
+	text-decoration: underline;
+}
+
+
+
+#appstool {
+	width: 36px;
+	height: 38px;
+	margin-bottom:-15px;
+}
+
+
+
+
+#signin {
+	background-color: blue;
+	color: white;
+	border: none;
+	height: 25px;
+}
+
+/*************************************
+SECTION
+*************************************/
+
+
+
+.googleimage {
+position: fixed;
+left: 550px;
+top: 190px;
+}
+
+
+
+#input_text {
+	background: url(img/mic.png) no-repeat right;
+	border: 1px solid lightgray;
+	width: 570px;
+	height: 30px;
+	margin-left:-150px;
+	position: fixed;
+	left: 550px;
+	top: 310px;
+}
+
+
+
+#input_text:hover {
+	background: url(img/mic.png) no-repeat right;
+	border: 1px solid gray;
+}
+
+
+
+.gobuttons {
+position: fixed;
+left: 600px;
+top: 355px;
+display: inline-block;
+}
+
+
+
+#googlesearch {
+	width: 90px;
+	height: 25px;
+	font-size: 0.7em;
+}
+
+
+
+#feelinglucky {
+	width: 100px;
+	height: 25px;
+	font-size: 0.7em;
+}
+
+
+
+/*************************
+FOOTER
+*************************/
+
+footer{
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	color: grey;
+	background-color: #F2F2F2;
+}
+
+
+footer ul {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+/****************************
+FOOTER NAVIGATION
+****************************/
+
+
+footer nav {
+	padding: 12px;
+	rgb(0 0 0)
+}
+
+
+
+footer li {
+	font-size: bold;
+	display: inline;
+	list-style: none;
+	font-size: 0.8em;
+	height: 5%;
+}
+
+.leftfloat {
+	float: left;
+	margin: 0 20% 0 0;
+}
+
+
+
+
+.leftfloat li a {
+	float: left;
+	margin: 0 20px 0 0;
+	text-decoration: none;
+	color: grey;
+}
+
+
+.leftfloat li a:hover{
+	text-decoration: underline;
+}
+
+
+
+.rightfloat {
+	padding-right: 10% 5% 0 0;
+	/*margin: 0 30px 0 0;*/
+}
+
+
+
+.rightfloat li a {
+	padding-right: 10% 5% 2% 0;
+	margin: 0 0 0 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+
+.rightfloat li a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
